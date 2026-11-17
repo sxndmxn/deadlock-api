@@ -1,5 +1,8 @@
 # Deadlock API
 
+This repository is a personal copy of [deadlock-api/deadlock-api](https://github.com/deadlock-api/deadlock-api), maintained as a GitHub fork.
+The documentation below describes the original project.
+
 Monorepo for the [Deadlock API](https://deadlock-api.com) project.
 
 ## Structure
@@ -20,7 +23,7 @@ cp .env.example .env
 cargo run
 ```
 
-See [`api/README.md`](api/README.md) for full documentation.
+See [`api/`](api/) for the backend source and configuration.
 
 ### Website
 
@@ -39,7 +42,7 @@ cd tools
 cargo run -p <service-name>
 ```
 
-See [`tools/README.md`](tools/README.md) for full documentation.
+See [`tools/`](tools/) for the data services and their configuration.
 
 ### Live Events
 
